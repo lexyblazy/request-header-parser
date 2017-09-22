@@ -1,0 +1,23 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "freecodemap request header parser microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexyblazy/request-header-parser.git"
+  },
+  "author": "lexy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexyblazy/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/lexyblazy/request-header-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
