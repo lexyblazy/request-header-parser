@@ -6,7 +6,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 app.get('/',(req,res)=>{
-    res.json(req.headers)
+    const result = {
+        ipaddress:req.headers['x-forwarded-for'],
+        language:req.headers['accept-language'],
+        software:req.headers['user-agent']
+    }
+    res.json(result)
 })
 
 
